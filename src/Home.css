@@ -1,0 +1,43 @@
+/* estilo do corpo */
+body{
+    background-color:#8760bd ;
+
+}
+/* estilo do conteudo do corpo    */
+#conteudo{
+    color:whitesmoke;
+    font: normal 20pt;
+    text-align: center;
+}
+/* estilo da tag b */
+b{
+    color:#3EA6FF;
+}
+/* estilo da tag strong */
+strong{
+    color:#DF09FF;
+}
+/* tamanho da imagem na sidebar */
+
+/* tamanho da imagem na sidebar */
+
+#img{
+    width: 100%;
+    height: 95%;
+}
+/* tamanho do scroll */
+::-webkit-scrollbar{
+    width:12px;
+}
+/* estilo do caminho do scroll */
+::-webkit-scrollbar-track{
+    background-image: url(https://wallpaperaccess.com/full/2637581.jpg);
+    background-color: #EB5441;
+}
+
+/* estilo dentro da barra do scroll */
+::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background-image: url(https://wallpapercave.com/wp/wp4892382.jpg);
+ }
+
