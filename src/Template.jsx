@@ -28,22 +28,22 @@ const Template = ({children}) => {
                 </div>
               </li>
               <li>
-                <a style={{ color: "violet" }} href="home.jsx">
+                <a style={{ color: "violet" }} href="/">
                   Home
                 </a>
               </li>
               <li>
-                <a style={{ color: "violet" }} href="historia.jsx">
+                <a style={{ color: "violet" }} href="/Historia">
                   História
                 </a>
               </li>
               <li>
-                <a style={{ color: "violet" }} href="radio.jsx">
+                <a style={{ color: "violet" }} href="/Radio">
                   Rádio
                 </a>
               </li>
               <li>
-                <a style={{ color: "violet" }} href="index.php">
+                <a style={{ color: "violet" }} href="/Contato">
                   Contato
                 </a>
               </li>
@@ -52,22 +52,22 @@ const Template = ({children}) => {
               <i className="fas fa-align-justify"></i>
             </a>
             <div className="nav-wrapper">
-              <a href="home.jsx" className="brand-logo">
+              <a href="/" className="brand-logo">
                 {" "}
                 <i className="fab fa-angrycreative fa-3x"></i>
               </a>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>
-                  <a href="home.jsx">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="historia.jsx">História</a>
+                  <a href="/Historia">História</a>
                 </li>
                 <li>
-                  <a href="radio.jsx">Rádio</a>
+                  <a href="/Radio">Rádio</a>
                 </li>
                 <li>
-                  <a href="index.php">Contato</a>
+                  <a href="/Contato">Contato</a>
                 </li>
               </ul>
             </div>
