@@ -7,14 +7,20 @@ const Home = () => {
   return (
     <Template>
   
+
+
+  {/* Primeiro filho */}
       <Parallax
         bgImage="https://i.pinimg.com/originals/2d/e8/b5/2de8b59daf0cd5a53c81ef4b3f44ea23.gif"
         bgImageAlt="the cat"
-        strength={150}
+        strength={0}
       >
         <div style={{ height: "600px" }} />
       </Parallax>
 
+
+
+      {/* segundo filho */}
       <div id="conteudo">
         <h1>Why do we use it?</h1>
         <p>
@@ -41,14 +47,18 @@ const Home = () => {
           <br />
         </p>
       </div>
+
+
+      {/* Terceiro filho */}
       <Parallax
         bgImage="https://i.pinimg.com/originals/5f/26/47/5f264729a4b1c06cff163013ac6c026f.gif"
         bgImageAlt="the cat"
-        strength={150}
+        strength={200}
       >
         <div style={{ height: "600px" }} />
       </Parallax>
 
+        
      
     </Template>
   );
