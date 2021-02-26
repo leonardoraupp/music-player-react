@@ -1,14 +1,16 @@
 import React from "react";
-import Template from "./Template";
+import "./css/Radio.css";
+import Card from "./Card";
+
 
 function Radio() {
 
 
 
   return (
-    <Template>
-      <div>Ola</div>
-    </Template>
+    <div id="corpoR">
+      <Card></Card>
+    </div>
   );
 }
 

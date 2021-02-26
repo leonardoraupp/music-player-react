@@ -6,15 +6,19 @@ import Home from './Home';
 import Historia from './Historia';
 import Radio from './Radio';
 import Contato from './Contato';
+import Template from './Template';
+
 
 ReactDOM.render(
   <BrowserRouter>
-    <Switch>
-      <Route path="/" exact={true} component={Home} />
-      <Route path="/historia" component={Historia} />
-      <Route path="/radio" component={Radio} />
-      <Route path="/contato" component={Contato} />
-    </Switch>
+    <Template>
+      <Switch>
+        <Route path="/" exact={true} component={Home} />
+        <Route path="/historia" component={Historia} />
+        <Route path="/radio" component={Radio} />
+        <Route path="/contato" component={Contato} />
+      </Switch>
+    </Template>
   </BrowserRouter>,
 
   document.getElementById("root")
