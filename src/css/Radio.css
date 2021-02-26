@@ -1,0 +1,26 @@
+
+/* adicionando estilo no corpo        */
+#corpoR{
+
+    background-image: url(https://wallpapercave.com/wp/wp4892382.jpg);   
+    background-repeat: no-repeat;
+    
+}
+
+/* estilo do caminho do scroll */
+::-webkit-scrollbar-track{
+    
+    background-image: url(https://wallpaperaccess.com/full/2637581.jpg);
+    background-color: #EB5441;
+
+}
+
+/* estilo dentro da barra do scroll */
+::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background-image: url(https://wallpapercave.com/wp/wp4892382.jpg);
+ }
+/* tamanho do scroll */
+::-webkit-scrollbar{
+    width:12px;
+}

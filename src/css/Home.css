@@ -1,7 +1,10 @@
 /* estilo do corpo */
-body{
+#corpoH{
     background-color:#8760bd ;
 
+}
+body{
+    background-color: #7B1FA2;
 }
 /* estilo do conteudo do corpo    */
 #conteudo{
@@ -31,13 +34,13 @@ strong{
 }
 /* estilo do caminho do scroll */
 ::-webkit-scrollbar-track{
-    background-image: url(https://wallpaperaccess.com/full/2637581.jpg);
+    /* background-image: url(https://wallpaperaccess.com/full/2637581.jpg); */
     background-color: #EB5441;
 }
 
 /* estilo dentro da barra do scroll */
 ::-webkit-scrollbar-thumb{
         border-radius: 10px;
-        background-image: url(https://wallpapercave.com/wp/wp4892382.jpg);
+        /* background-image: url(https://wallpapercave.com/wp/wp4892382.jpg); */
  }
 
